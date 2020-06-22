@@ -64,6 +64,7 @@ header nav .nav-item:hover .nav-link {
 #sectionThree {
     position: relative;
     min-height: 500px;
+    overflow: hidden;
 }
 
 #sectionThree::before {
