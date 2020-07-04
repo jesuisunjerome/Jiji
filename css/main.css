@@ -21,7 +21,7 @@ header nav .nav-item:hover .nav-link {
 }
 
 #heroInicio {
-    background: linear-gradient(rgba(0, 0, 0, .8), rgba(10, 2, 0, .5)), url("https://images.pexels.com/photos/433308/pexels-photo-433308.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(10, 2, 0, .5)), url("https://images.pexels.com/photos/433308/pexels-photo-433308.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,6 +29,13 @@ header nav .nav-item:hover .nav-link {
 
 #heroNosotros {
     background: linear-gradient(90deg, rgba(0, 0, 0, .8) 10%, rgba(10, 2, 0, .5) 50%, rgba(10, 2, 0, .1) 100%), url("../Imagenes/Hero/photovoltaic-system.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#heroContacto {
+    background: linear-gradient(to right, rgba(16, 141, 199, .5), rgba(239, 142, 56, .5)), url("https://images.pexels.com/photos/821754/pexels-photo-821754.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -145,8 +152,13 @@ footer img {
 }
 
 
+#contactSection .container .row .mx-auto {
+    top: -5rem;
+}
 
-
+#map-container {
+    height: 400px;
+}
 
 
 
